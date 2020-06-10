@@ -1,0 +1,69 @@
+/*BASE*/
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+// Color for button and hour text
+$color: #8A962B;
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: #624835;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+h2 {
+  color: #000000;
+  font-size: 1.5em;
+}
+
+.heure-section {
+  color: $color;
+  font-size: 1.125em;
+}
+
+h4 {
+  color: #624835;
+  font-size: 1.475em;
+}
+
+h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #000000;
+  line-height: 1.6875;
+  font-weight: 600;
+}
+
+/*Bouton*/
+.btn {
+  display: inline-block;
+  background-color: $color;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 17px;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  border-width: 2px;
+  border-style: solid;
+  transition: color .1s ease-in-out,background .1s ease-in-out,border .1s ease-in-out;
+  &:hover {
+    border-width: 2px;
+    border-style: solid;
+    background-color: #ffffff;
+    color: $color;
+  }
+}
